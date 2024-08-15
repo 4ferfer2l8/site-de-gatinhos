@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 146, 207);
+    color: #fff;
+}
+
+header h1{
+    margin: 0;
+}
+
+.title-box{
+    background-color: rgb(179, 123, 91);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title-box h1{
+    margin: 0;
+    color: #fff;
+    font-size: 2em;
+}
+
+.box-menu h3 a{
+    color: #832f7f;
+}
+
+nav ult{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #832f7f;
+    font-weight: bold;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    background-color: #e97bc8;
+    text-align: center;
+    padding: 10px;
+    color: #633110;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form label{
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form button{
+    background-color: #ff9f9f;
+    color: #633110;
+    padding: 10x;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover{
+    background-color: #ff7f7f;
+}
+
+.image-container{
+    text-align: center;
+    margin: 20px;
+}
+
+.image-container img{
+    max-width: 19%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
